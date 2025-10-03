@@ -82,9 +82,17 @@ timestamp	STRING	The UNIX timestamp or formatted time of the record<br>
 Example Output
 ### Producer Output:
 Produced: {'iss_position': {'longitude': '50.8172', 'latitude': '50.4333'}, 'timestamp': 1759399245, 'message': 'success'}
+![Producer Output](./images/producer.png)
+
 ### Consumer Output:
 Inserted into Snowflake: {'message': 'success', 'longitude': '50.8172', 'latitude': '50.4333', 'timestamp': '2025-10-02 14:50:45'}
+![Consumer Output](./images/consumer.png)
 
+## Snowflake 
+![Snowflake](./images/snowflake.png)
+
+## Topics
+![Topics](./images/topics.png)
 
 ## Future Improvements
 Scalability: Implement multiple Kafka partitions for higher message throughput.<br>
