@@ -47,10 +47,10 @@ export SNOWFLAKE_ROLE="YOUR_ROLE"<br>
 ### 4. Start Kafka & Zookeeper
 Start Zookeeper and the Kafka Broker in separate terminal sessions (assuming a local Kafka installation).
 
-# Terminal 1: Start Zookeeper
+## Terminal 1: Start Zookeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
-# Terminal 2: Start Kafka Broker
+## Terminal 2: Start Kafka Broker
 bin/kafka-server-start.sh config/server.properties
 
 ### 5. Create Kafka Topic
